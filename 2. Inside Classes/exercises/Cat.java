@@ -12,12 +12,12 @@ public class Cat {
 	void meow() {
 		System.out.println("meeeeeooooooooooowwwwwwwww!!");
 	}
-
+	
 	public void printName() {
-//		if (name == null)
-//			System.out.println("i don't know my own name!");
-//		else
-//			System.out.println("my name is " + name);
+		if (name == null)
+			System.out.println("i don't know my own name!");
+		else
+			System.out.println("my name is " + name);
 	}
 
 	void kill() {
